@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPSCM — Cantonment Public School & College</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+<script src="js/main.js" defer></script>
+</head>
+<body>
+
+<!-- Animated Nebula Background -->
+<canvas id="nebula-canvas"></canvas>
+
+<header class="site-header">
+  <div class="navcontainer">
+    <div class="brand">CPSCM</div>
+    <nav class="main-nav">
+      <ul id="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#academic">Academic</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="nav-toggle" aria-expanded="false">☰</button>
+    </nav>
+    <button id="mode-toggle" aria-pressed="false">🌙</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1 class="display">CPSCM</h1>
+  <p class="tagline">Excellence in Education</p>
+  <div class="hero-ctas">
+    <button class="btn btn-primary">Apply</button>
+    <button class="btn btn-ghost">Visit</button>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About CPSCM</h2>
+  <p class="lead">Placeholder for school history and mission. Replace with actual content.</p>
+</section>
+
+<section id="academic" class="section">
+  <h2>Academic</h2>
+  <p class="lead">Placeholder for curriculum and classes.</p>
+  <div class="counters">
+    <div class="counter" data-target="1200">0</div><span>Students</span>
+    <div class="counter" data-target="75">0</div><span>Teachers</span>
+    <div class="counter" data-target="30">0</div><span>Classes</span>
+  </div>
+</section>
+
+<section id="faculty" class="section">
+  <h2>Faculty</h2>
+  <div class="grid faculty-grid">
+    <div class="card"><img src="assets/faculty-1.jpg" alt="Faculty 1"><h3>Teacher 1</h3></div>
+    <div class="card"><img src="assets/faculty-2.jpg" alt="Faculty 2"><h3>Teacher 2</h3></div>
+    <div class="card"><img src="assets/faculty-3.jpg" alt="Faculty 3"><h3>Teacher 3</h3></div>
+    <div class="card"><img src="assets/faculty-4.jpg" alt="Faculty 4"><h3>Teacher 4</h3></div>
+    <div class="card"><img src="assets/faculty-5.jpg" alt="Faculty 5"><h3>Teacher 5</h3></div>
+    <div class="card"><img src="assets/faculty-6.jpg" alt="Faculty 6"><h3>Teacher 6</h3></div>
+  </div>
+</section>
+
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item" data-src="assets/placeholder-1.png"><img src="assets/placeholder-1.png" alt="Gallery 1"></div>
+    <div class="gallery-item" data-src="assets/placeholder-2.png"><img src="assets/placeholder-2.png" alt="Gallery 2"></div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+
+<footer class="site-footer">
+  <p>© SadaF — Copyright by SadaF</p>
+  <p class="neon-subtle">TEAM % SDF>_ — Owner: Sadaf — Portfolio: <a href="https://my.oninon.qzz.io">https://my.oninon.qzz.io</a></p>
+</footer>
+
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" src="" alt="Expanded Image">
+</div>
+
+</body>
+</html>
